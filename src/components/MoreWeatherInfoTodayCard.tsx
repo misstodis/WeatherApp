@@ -2,7 +2,7 @@ import React from 'react'
 import WeatherIcon from './WeatherIcon'
 import WeatherCard from './WeatherCard'
 import WeatherDetail from './WeatherDetails'
-import { metersToKilometer } from '@/utils/metersTOKilometer'
+import { metersToKilometer } from '@/utils/metersToKilometer'
 import { format, fromUnixTime } from 'date-fns'
 import { convertWindSpeed } from '@/utils/convertWindSpeed'
 
